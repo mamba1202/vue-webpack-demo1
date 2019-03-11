@@ -7,11 +7,12 @@ Vue.use(router)
 //配置路由
 export default new router({
     routes: [{
-        path: '/helloworld',   //指定要要跳转的路径
+        name: 'helloworld',
+        path: '/helloworld/:worldmsg',   //指定要要跳转的路径
         component: HelloWorld //指定要跳转的组件
-    },
-    {
-        path: '/helloearth',   //指定要要跳转的路径
+    },{
+        name: 'helloearth',
+        path: '/helloearth/:earthmsg',   //指定要要跳转的路径
         component: HelloEarth //指定要跳转的组件
     }]
 }) 

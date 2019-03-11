@@ -3,6 +3,7 @@
   <div class="hello">
     <h1>HelloEarth</h1>
     <h2>Essential Links</h2>
+    <h3>{{$route.params.earthmsg}}</h3>
     <hr>
   </div>
 </template>

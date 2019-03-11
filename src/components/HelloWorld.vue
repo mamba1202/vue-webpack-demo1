@@ -3,6 +3,7 @@
   <div class="hello">
     <h1>HelloWorld</h1>
     <h2>Essential Links</h2>
+    <h3>{{$route.params.worldmsg}}</h3>
     <hr>
   </div>
 </template>

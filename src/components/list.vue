@@ -1,10 +1,10 @@
 <template>
 <ul>
 <li>
-<router-link to="/helloworld">HelloWorld</router-link>
+<router-link :to="{name:'helloworld',params:{worldmsg:'休斯顿火箭队'}}">HelloWorld</router-link>
 </li>
 <li>
-<router-link to="/helloearth">HelloEarth</router-link>
+<router-link :to="{name:'helloearth',params:{earthmsg:'湖人队'}}">HelloEarth</router-link>
 </li>
 </ul>
 </template>
